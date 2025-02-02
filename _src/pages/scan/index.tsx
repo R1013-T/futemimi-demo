@@ -1,5 +1,5 @@
-import Link from "next/link";
-import { Button } from "~/shared/ui/generated/button";
+import Link from 'next/link'
+import { Button } from '~/shared/ui/generated/button'
 
 export default function ScanPage() {
   return (

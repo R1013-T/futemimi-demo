@@ -31,16 +31,16 @@ export default function NavItem({ name }: { name: NavNames }) {
   if (active) {
     const ActiveIcon = navItem.activeIcon
     return (
-      <span className='flex gap-2 items-center justify-center w-full'>
+      <span className="flex gap-2 items-center justify-center w-full">
         {ActiveIcon ? <ActiveIcon size={30} /> : null}
-        <span className='font-semibold'>{label}</span>
+        <span className="font-semibold">{label}</span>
       </span>
     )
   }
 
   const Icon = navItem.icon
   return (
-    <Link href={name} className='flex gap-2 items-center justify-center w-full'>
+    <Link href={name} className="flex gap-2 items-center justify-center w-full">
       {Icon ? <Icon size={30} stroke={1} /> : null}
       <span>{label}</span>
     </Link>

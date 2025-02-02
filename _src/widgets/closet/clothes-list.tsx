@@ -1,4 +1,4 @@
-import { ClothesItem } from "./clothes-item";
+import { ClothesItem } from './clothes-item'
 
 export default function ClothesList() {
   return (

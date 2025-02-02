@@ -1,14 +1,14 @@
-import NavBar from "~/shared/ui/nav-bar";
+import NavBar from '~/shared/ui/nav-bar'
 
 export default function MainLayout({
   children,
 }: Readonly<{
-  children: React.ReactNode;
+  children: React.ReactNode
 }>) {
   return (
     <div>
       {children}
       <NavBar />
     </div>
-  );
+  )
 }

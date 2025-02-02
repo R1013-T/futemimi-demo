@@ -1,5 +1,5 @@
-import { IconLoader } from "justd-icons";
-import PageLayout from "~/shared/layout/page-layout";
+import { IconLoader } from 'justd-icons'
+import PageLayout from '~/shared/layout/page-layout'
 
 export default function TryOnStartPage() {
   return (
